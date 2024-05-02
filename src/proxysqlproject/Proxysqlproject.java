@@ -26,6 +26,7 @@ public class Proxysqlproject {
     /**
      * @param args the command line arguments
      */
+    //
 //    static String JDBC_URL = "jdbc:mysql://address=(protocol=tcp)(host=db-hcm-cluster-mysql.cluster-c5so2imeal7m.ap-southeast-1.rds.amazonaws.com)(port=3306)";
     static String reader_url = "database-1.cluster-c5so2imeal7m.ap-southeast-1.rds.amazonaws.com";
     static String JDBC_URL = "jdbc:mysql://"+reader_url+":3306/session";
